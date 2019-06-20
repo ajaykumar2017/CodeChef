@@ -5,7 +5,7 @@
 * (i) The abstract method within the abstract class must be declared with abstract keyword
 * (ii) We Can not create object for abstract classes.
  */
-package Practice;
+package practice;
 import java.util.*;
 abstract class Arithmetic{
     double z;
@@ -21,7 +21,7 @@ class Result extends Arithmetic{
     }
 }
 public class AbstractClass {
-    public static void main(String args[]){
+    public static void main(String[] args){
        Scanner s=new Scanner(System.in);
        System.out.println("Enter the value of x");
        int x=s.nextInt();

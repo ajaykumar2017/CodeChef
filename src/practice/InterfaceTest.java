@@ -1,4 +1,4 @@
-package Practice;
+package practice;
 
 interface Test{
     public static final int b=100;
