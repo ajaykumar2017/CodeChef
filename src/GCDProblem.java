@@ -35,7 +35,7 @@ Total sum = 1+1+1+1+1 = 5
  */
 import java.util.*;
 public class GCDProblem {
-    public static void main(String args[] ) throws Exception {
+    public static void main(String[] args) throws Exception {
         Scanner s = new Scanner(System.in);
         int T=s.nextInt();
         for(int i=0;i<T;i++){
