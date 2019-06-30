@@ -1,6 +1,13 @@
 /*
 * Google Placement Question:
-* Find the number of Characters needed to make a string palindrome.
+* Find the minimum number of Characters to be inserted to convert a given string to palindrome.
+* Example:
+* Input: aa
+* output: Number of insertions required is 0
+* (i.e.aa)
+* Input: abcd
+* Output: Number of insertiond required is 3
+* (i.e. dcbabcd)
 * */
 import java.util.*;
 public class CharToPalindrome {
