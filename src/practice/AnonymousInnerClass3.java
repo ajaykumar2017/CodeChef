@@ -18,11 +18,6 @@ public class AnonymousInnerClass3 {
         };
         obj.m();
         Bank obj1=new Bank();
-        obj1.dis(new AtmCard() {
-            @Override
-            public void m() {
-                System.out.println("Display from main2");
-            }
-        });
+        obj1.dis(() -> System.out.println("Display from main2"));
     }
 }

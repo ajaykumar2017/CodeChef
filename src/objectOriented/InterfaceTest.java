@@ -1,4 +1,4 @@
-package practice;
+package objectOriented;
 
 interface Test{
     public static final int b=100;
