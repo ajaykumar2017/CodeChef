@@ -100,9 +100,9 @@ public class MyApplet extends JApplet implements ActionListener {
             float totSal=b+(0.87f*b)+(0.76f*b);
             addr.setText(totSal+" ");
         }else{
-            name.setText(" ");
-            name1.setText(" ");
-            addr.setText(" ");
+            name.setText("");
+            name1.setText("");
+            addr.setText("");
         }
     }
 }
