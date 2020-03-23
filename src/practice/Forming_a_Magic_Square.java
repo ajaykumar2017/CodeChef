@@ -4,13 +4,12 @@ import java.util.*;
 
 public class Forming_a_Magic_Square
 {  // driver program
+    private static final Scanner scanner = new Scanner(System.in);
     public static void main (String[] args)
     {
         // Works only when n is odd
-        Scanner scanner = new Scanner(System.in);
         int n = scanner.nextInt();
         generateSquare(n);
-
         scanner.close();
     }
     // Function to generate odd sized magic squares
