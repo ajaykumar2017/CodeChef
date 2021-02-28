@@ -1,6 +1,6 @@
 package dsaUsingJava.sortingAlgorithms;
 
-public class BubbleSort {
+public class selectionSort {
     /*
     Time Complexity: O(n^2)
      */
@@ -8,14 +8,18 @@ public class BubbleSort {
 
         int[] intArray = {-15, 7, 20, 5, 40, 55, 42, -9};
 
-        for (int lastUnsortedIndex = intArray.length - 1; lastUnsortedIndex > 0;
-             lastUnsortedIndex--) {
+        for(int lastUnsortedIndex = intArray.length - 1; lastUnsortedIndex > 0;
+            lastUnsortedIndex--) {
 
-            for (int i = 0; i < lastUnsortedIndex; i++) {
+            int largest  = 0;
 
-                if (intArray[i] > intArray[i + 1])
-                    swap(intArray, i, i + 1);
+            for(int i = 1; i <= lastUnsortedIndex; i++) {
+
+                if(intArray[i] > intArray[largest])
+                    largest = i;
             }
+
+            swap(intArray, largest, lastUnsortedIndex);
         }
 
         for (int i = 0; i < intArray.length; i++) {
