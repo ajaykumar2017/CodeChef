@@ -1,6 +1,6 @@
 package dsaUsingJava.sortingAlgorithms;
 
-public class selectionSort {
+public class SelectionSort {
     /*
     Time Complexity: O(n^2)
      */
