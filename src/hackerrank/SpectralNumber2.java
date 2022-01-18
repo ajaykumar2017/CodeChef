@@ -54,11 +54,11 @@ public class SpectralNumber2 {
                 BigInteger res = new BigInteger("1");
                 for (int j = 0; j < m; j++) {
                     int count = 0;
-                    String sc = "";
+                    StringBuilder sc = new StringBuilder();
                     for (int p = 0; p < m; p++) {
-                        if (!sc.contains(String.valueOf(arr[p])))
+                        if (!sc.toString().contains(String.valueOf(arr[p])))
                             count++;
-                        sc = sc + String.valueOf(arr[p]);
+                        sc.append(arr[p]);
                     }
                     res = res.multiply(BigInteger.valueOf(count + 1).pow(count + 1));
                 }
