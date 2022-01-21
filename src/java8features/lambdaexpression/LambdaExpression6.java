@@ -1,4 +1,4 @@
-package java8features;
+package java8features.lambdaexpression;
 
 public class LambdaExpression6 {
     public static void main(String[] args) {
