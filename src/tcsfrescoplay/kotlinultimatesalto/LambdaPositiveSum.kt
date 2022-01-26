@@ -1,5 +1,6 @@
 package tcsfrescoplay.kotlinultimatesalto
 
+// All test cases passed
 fun sum(nums: Array<Int>, add: (acc: Int, ele: Int) -> Int): Int {
     var res = 0
     for (i in nums) {
