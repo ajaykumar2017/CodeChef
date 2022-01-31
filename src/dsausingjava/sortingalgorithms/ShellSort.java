@@ -22,8 +22,8 @@ public class ShellSort {
             }
         }
 
-        for (int i = 0; i < intArray.length; i++) {
-            System.out.println(intArray[i]);
+        for (int j : intArray) {
+            System.out.println(j);
         }
     }
 }
