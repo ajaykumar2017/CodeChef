@@ -1,7 +1,7 @@
 package hackerrank;
 
 // Problem Link: https://www.hackerrank.com/challenges/tower-breakers-1/problem?isFullScreen=false
-
+// All Test Cases Passed
 import java.util.Scanner;
 
 public class TowerBreakers {
